@@ -8,8 +8,8 @@ Example:- ssh -p 21350 root@xxx.xxx.xxx.xxx
 
 ## **Note:- Run Below Commands on Your Local Machine, Not on Your VPS or Remote Server**
 
-**Generate SSH Key**
-ssh-keygen [<OPTIONAL>-f C:\Users\R/.ssh/my_key] -t rsa -b 4096  
+**Generate SSH Key**  
+ssh-keygen [-f C:\Users\username/.ssh/my_key] -t rsa -b 4096  
 
 Copy SSH Public Key to Remote Server (Not for Windows)  
 
@@ -23,6 +23,6 @@ Copy Public Key to Remote Server (for Windows)
 Syntax:- ssh -P PORT USERNAME@HOSTIP "mkdir /home/USERNAME/.ssh"  
 Example:- ssh -P 21350 u27653@216.32.44.12 "mkdir /home/u27653/.ssh"  
 
-2. Copy Public Key  
+1. Copy Public Key  
 Syntax:- scp -P PORT SSH_PUBLIC_KEY_PATH USERNAME@HOSTIP:/home/USERNAME/.ssh/authorized_keys  
 Example:- scp -P 21350 C:\Users\R/.ssh\id_rsa.pub u27653@216.32.44.12:/home/u27653/.ssh/authorized_keys  
