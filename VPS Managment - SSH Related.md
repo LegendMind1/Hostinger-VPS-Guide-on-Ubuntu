@@ -6,10 +6,10 @@ Syntax:- ssh -p PORT USERNAME@HOSTIP
 Example:- ssh -p 21350 root@xxx.xxx.xxx.xxx
 
 
-## - **Note:- Run Below Commands on Your Local Machine, Not on Your VPS or Remote Server**
+## **Note:- Run Below Commands on Your Local Machine, Not on Your VPS or Remote Server**
 
 **Generate SSH Key**
-ssh-keygen -f C:\Users\R/.ssh/my_key -t rsa -b 4096  
+ssh-keygen [<OPTIONAL>-f C:\Users\R/.ssh/my_key] -t rsa -b 4096  
 
 Copy SSH Public Key to Remote Server (Not for Windows)  
 
