@@ -15,7 +15,7 @@ Copy SSH Public Key to Remote Server (Not for Windows)
 
 Syntax:- ssh-copy-id -p PORT -i ~/.ssh/keyname.pub USERNAME@HOSTIP  
 
-Example:- ssh-copy-id -p 21350 -i ~/.ssh/id_rsa.pub u27653@216.32.44.12  
+Example:- ssh-copy-id -p 21350 -i ~/.ssh/id_rsa.pub user@xxx.xxx.xxx.xxx  
 
 Copy Public Key to Remote Server (for Windows)  
 
