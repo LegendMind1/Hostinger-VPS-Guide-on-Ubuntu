@@ -19,10 +19,14 @@ Example:- ssh-copy-id -p 21350 -i ~/.ssh/id_rsa.pub user@xxx.xxx.xxx.xxx
 
 Copy Public Key to Remote Server (for Windows)  
 
-1. Make sure you have .ssh folder in remote server  
+1. **Make sure you have .ssh folder in remote server**  
 Syntax:- ssh -P PORT USERNAME@HOSTIP "mkdir /home/USERNAME/.ssh"  
 Example:- ssh -P 21350 u27653@216.32.44.12 "mkdir /home/u27653/.ssh"  
 
-1. Copy Public Key  
+**OR**  
+
+Create in remote/ VPS server using *mkdir .ssh* command
+
+2. Copy Public Key  
 Syntax:- scp -P PORT SSH_PUBLIC_KEY_PATH USERNAME@HOSTIP:/home/USERNAME/.ssh/authorized_keys  
 Example:- scp -P 21350 C:\Users\R/.ssh\id_rsa.pub u27653@216.32.44.12:/home/u27653/.ssh/authorized_keys  
