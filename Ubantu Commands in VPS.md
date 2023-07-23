@@ -6,7 +6,8 @@ https://www.hostinger.com/tutorials/ssh/basic-ssh-commands
 1. clear  ----> clear screen
 2. whoami    ---> see who is logged in user
 3. cd\ ---> Up one directory
-4. nano [pathe and filename] ----> File reader writer  
+4. nano [pathe and filename] ----> File reader writer 
+5. lsb_release -a && ip r  ---> See which Ubantu version installed 
    
 **Add / Manage Users**  
 1. adduser [username]   ----> Add new user
@@ -14,10 +15,13 @@ https://www.hostinger.com/tutorials/ssh/basic-ssh-commands
 3. deluser [username]. ----> Delete user 
 4. groups [username]     ----> see group of the user
 5. rm -r [username].  ----> Remove user home directory 
-6.  usermod -aG sudo [username] ----> make user a root user
-7.  grep -Po '^sudo.+:\K.*$' /etc/group    ----> See which users belong to sudo group 
+6. usermod -aG sudo [username] ----> make user a root user
+7. grep -Po '^sudo.+:\K.*$' /etc/group    ----> See which users belong to sudo group 
 
 **Change SSH port**  
-1.  nano /etc/ssh/sshd_config  ----> open ssh configuration file
-2.  service ssh restart  ----> restart the ssh service
+1. nano /etc/ssh/sshd_config  ----> open ssh configuration file
+2. Change ---> Port [any number from 1024 to 65535]
+3. service ssh restart  ----> restart the ssh service
+4. service ssh status  ---> Check SSH service status
+
 
