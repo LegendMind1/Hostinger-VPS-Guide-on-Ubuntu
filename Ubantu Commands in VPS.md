@@ -2,7 +2,6 @@
 
 https://www.hostinger.com/tutorials/ssh/basic-ssh-commands
 
-
 1. clear  ----> clear screen
 2. whoami    ---> see who is logged in user
 3. cd\ ---> Up one directory
@@ -23,5 +22,3 @@ https://www.hostinger.com/tutorials/ssh/basic-ssh-commands
 2. Change ---> Port [any number from 1024 to 65535]
 3. service ssh restart  ----> restart the ssh service
 4. service ssh status  ---> Check SSH service status
-
-
