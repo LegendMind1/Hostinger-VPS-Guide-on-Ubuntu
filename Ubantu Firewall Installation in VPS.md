@@ -13,6 +13,7 @@ Example:- ssh -p 22 root@216.32.44.12
 
 **Install UFW**  
 apt install ufw   
+
 **Enable UFW**  
 ufw enable  
 
