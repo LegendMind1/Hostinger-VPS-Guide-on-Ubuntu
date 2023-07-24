@@ -7,12 +7,12 @@
 1. Open Command Prompt  
 2. Copy Zip File from Local Windows Machine to Linux Remote Server  
 3. Syntax:- scp -P Port_number Source_File_Path Destination_Path  
-4. Example:- scp -P 22 osmsProject.zip root@216.32.44.12:/var/www  
+4. Example:- scp -P 22 osmsProject.zip root@xxx.xxx.xxx.xxx:/var/www  
 5. Copied Successfully  
 
 **To Access Remote Server via SSH**  
 Syntax:- ssh -p PORT USERNAME@HOSTIP  
-Example:- ssh -p 22 root@216.32.44.12   
+Example:- ssh -p 22 root@xxx.xxx.xxx.xxx.   
 
 ### **Note:- Run Below Commands on Your Remote Server Linux Machine or VPS, Not on Your Local Windows Machine**  
 
@@ -26,7 +26,7 @@ ls
 
 **Unzip the Copied Zip File**  
 Syntax:- unzip zip_file_name  
-Example:- unzip osmsProject.zip  
+Example:- unzip myproj.zip  
 
 # **How to Copy File from Linux Remote Server or VPS to Windows Local Machine**  
 
@@ -34,7 +34,7 @@ Example:- unzip osmsProject.zip
 
 **To Access Remote Server via SSH**  
 Syntax:- ssh -p PORT USERNAME@HOSTIP  
-Example:- ssh -p 22 root@216.32.44.12  
+Example:- ssh -p 22 root@xxx.xxx.xxx.xxx  
 
 **Install zip**  
 apt install zip  
@@ -43,7 +43,7 @@ apt install zip
 
 **Zip the Folders and Files**  
 Syntax:- zip -r zip_filename.zip target_folder_name  
-Example:- zip -r mynewproject.zip mynewproject  
+Example:- zip -r myproj.zip myproj  
 
 **Note:- Run Below Commands on Your Local Windows Machine, Not on Your Remote Server Linux Machine or VPS**  
 
@@ -51,6 +51,6 @@ Example:- zip -r mynewproject.zip mynewproject
 
 **Copy Zip File from Linux Remote Server to Local Windows Machine**  
 Syntax:- scp -P Port_number Source_File_Path Destination_Path  
-Example:- scp -P 22 root@216.32.44.12:/var/www/mynewproject.zip D:\new\  
+Example:- scp -P 22 root@2xxx.xxx.xxx.xxx:/var/www/myproj.zip D:\new\  
 
 **Copied Successfully!**
