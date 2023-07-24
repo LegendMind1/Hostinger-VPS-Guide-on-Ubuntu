@@ -21,7 +21,7 @@ ufw allow "Apache Full"
 ### **Install MySQL**  
 apt install mysql-server  
 
-**Aftr this, you may check want to chck installation success through following commands**  
+**Aftr this, you may want to check installation success through following commands**  
 mysql -v  ---> Vrsion checking
 mysql  ---> Go to **mysql prompt**  
 show databases;  ---> MySql command to show all available databases
