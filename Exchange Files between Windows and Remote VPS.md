@@ -4,11 +4,10 @@
 
 ### **On Local Windows Machine Make Your Project Folder a Zip File using any of the software e.g. winzip using following steps**  
 
-1. Open Command Prompt  
-2. Copy Zip File from Local Windows Machine to Linux Remote Server  
-3. Syntax:- scp -P Port_number Source_File_Path Destination_Path  
-4. Example:- scp -P 22 myproj.zip root@xxx.xxx.xxx.xxx:/var/www  
-5. Copied Successfully  
+**Open Command Prompt**  
+**Copy Zip File from Local Windows Machine to Linux Remote Server**  
+Syntax:- scp -P Port_number Source_File_Path Destination_Path  
+Example:- scp -P 22 myproj.zip root@xxx.xxx.xxx.xxx:/var/www  
 
 **To Access Remote Server via SSH**  
 Syntax:- ssh -p PORT USERNAME@HOSTIP  
