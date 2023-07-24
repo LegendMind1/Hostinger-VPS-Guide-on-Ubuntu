@@ -8,10 +8,11 @@ https://www.hostinger.com/tutorials/ssh/basic-ssh-commands
 4. cd ~ ---> Change propmt to load system folders path
 5. cd / ---> Change Propmt to load server folders path
 6. cd ..  ---> Drop current directory
-7. nano [pathe and filename] ----> File reader writer 
-8. lsb_release -a && ip r  ---> See which Ubantu version installed 
-9. apt install unzip ---> Install Unzip
-10. unzip [filename] ---> Unzip a zip file
+7. rm -r [dir/filename]  ---> Delete directory/ file
+8. nano [pathe and filename] ----> File reader writer 
+9. lsb_release -a && ip r  ---> See which Ubantu version installed 
+10. apt install unzip ---> Install Unzip
+11. unzip [filename] ---> Unzip a zip file
    
 **Add / Manage Users**  
 1. adduser [username]   ----> Add new user
