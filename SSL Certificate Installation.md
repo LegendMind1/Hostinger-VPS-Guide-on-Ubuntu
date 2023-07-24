@@ -16,10 +16,12 @@ python3-certbot-apache is a Apache plugin for Certbot.
 ufw status verbose
 
 **Obtain an SSL certificate**  
-certbot --apache
+certbot --apache  
 
 **Check Status of Certbot**  
-systemctl status certbot.timer
+systemctl status certbot.timer  
 
 **Dry Run SSL Renewal**  
+Note: To check if our certificate will automatically renew on expiry or not  
+
 certbot renew --dry-run
