@@ -8,7 +8,7 @@ Example:- ssh -p 22 root@xxx.xxx.xxx.xxx
 1. apt update  
 2. apt upgrade  
 
-**Install Apache**  
+### **Install Apache**  
 apt install apache2  
 
 **(Optional) If Get Error While Installation "cannot stat '/usr/share/apache2/default-site/index.html': No such file or directory dpkg: error processing package apache2 (--configure)" then Try to Install Again**  
@@ -16,17 +16,24 @@ apt purge apache2-data
 
 **Allow Apache through Firewall**  
 ufw allow "Apache Full"  
+**Note:** At this point check Server IP on Web Browser You will see Apache Default Page  
 
-**Check Server IP on Web Browser You will see Apache Default Page**  
-1. Install MySQL  
-2. apt install mysql-server  
-3. Install PHP  
-4. apt install php libapache2-mod-php php-mysql  
+### **Install MySQL**  
+apt install mysql-server  
+
+**Aftr this, you may check want to chck installation success through following commands**  
+mysql -v  ---> Vrsion checking
+mysql  ---> Go to **mysql prompt**  
+show databases;  ---> MySql command to show all available databases
+
+
+### **Install PHP**  
+apt install php libapache2-mod-php php-mysql  
 
 **The above command includes three packages:-**  
-1. php -  To Install PHP  
-2. libapache2-mod-php - It is Used by apache to handle PHP files  
-3.  php-mysql - It is a PHP module that allows PHP to connect to MySQL  
+1. php --->  To Install PHP  
+2. libapache2-mod-php ---> It is Used by apache to handle PHP files  
+3.  php-mysql ---> It is a PHP module that allows PHP to connect to MySQL  
 
 **To Restart Apache**  
 service apache2 restart  
