@@ -31,7 +31,7 @@ ufw enable
 2. ufw enable  
 
 **To Check Open Port, It will show only those which are currently running:**  
-1. netstat -tulpn  
+netstat -tulpn  
 
 **To Open Port:**
 Syntax:- ufw allow port/protocol  
@@ -41,15 +41,15 @@ Example:- ufw allow 21/tcp
 Syntax:- ufw deny port/protocol  
 Example:- ufw deny 21/tcp  
 
-**To Open a Range of Ports:**
+**To Open a Range of Ports:**  
 Syntax:- ufw allow [Starting_port:Ending_port]/protocol  
 Example:- ufw allow 300:310/tcp  
 
-**To Close a Range of Ports:**
+**To Close a Range of Ports:**  
 Syntax:- ufw deny [Starting_port:Ending_port]/protocol  
 Example:- ufw deny 300:310/tcp  
 
-**To Allow Service:**
+**To Allow Service:**  
 Syntax:- ufw allow service_name  
 Example:- ufw allow http  
 
@@ -57,7 +57,7 @@ Example:- ufw allow http
 Syntax:- ufw deny service_name  
 Example:- ufw deny http  
 
-**To Allow Access to IP Address:**
+**To Allow Access to IP Address:**  
 Syntax:- ufw allow from IPAddress  
 Example:- ufw allow from 192.168.1.4  
 
@@ -70,13 +70,15 @@ Syntax:- ufw allow from IPAdress to any port Port
 Example:- ufw allow from 192.168.1.4 to any port 45  
 
 **To Delete a Specific Rule:**
-1. **Check Status with Number:** ufw status numbered
+1. **Check Status with Number:**  
+   ufw status numbered  
+
 2. **Delete with Number**
    Syntax:- ufw delete number  
    Example:- ufw delete 3  
 
 **To Reset to Default Setting:**  
-1. ufw reset  
+ufw reset  
 
 **Some usefull connection which You may want to allow**  
 To Allow SSH Connection: ufw allow ssh or ufw allow 22/tcp  
