@@ -12,9 +12,9 @@ Syntax:- ssh -p PORT USERNAME@HOSTIP
 Example:- ssh -p 22 root@216.32.44.12  
 
 **Install UFW**  
-1. apt install ufw   
-2. Enable UFW  
-3. ufw enable  
+apt install ufw   
+**Enable UFW**  
+ufw enable  
 
 **Check UFW Status**  
 1. **To Check Normal Mode:** ufw status 
