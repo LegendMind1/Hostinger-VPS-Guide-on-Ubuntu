@@ -2,7 +2,7 @@
 
 **To Get Access via SSH**  
 Syntax:- ssh -p PORT USERNAME@HOSTIP  
-Example:- ssh -p 22 root@216.32.44.12  
+Example:- ssh -p 22 root@xxx.xxx.xxx.xxx  
 
 **Updates the package lists for Upgrades then Upgrades**  
 1. apt update  
