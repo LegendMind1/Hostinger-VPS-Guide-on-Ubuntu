@@ -1,6 +1,6 @@
 # **How to Set TimeZone** 
  
-**To Get Access via SSH** 
+**To Get Access via SSH**  
 Syntax:- ssh -p PORT USERNAME@HOSTIP  
 Example:- ssh -p 21350 root@xxx.xxx.xxx.xxx    
 
