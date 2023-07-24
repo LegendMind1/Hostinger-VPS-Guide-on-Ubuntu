@@ -59,7 +59,7 @@ nano /etc/apache2/sites-available/your_domain.conf
     ErrorLog ${APACHE_LOG_DIR}/error.log  
     CustomLog ${APACHE_LOG_DIR}/access.log combined  
 </VirtualHost>  
-
+  
 **Enable Virtual Host**  
 cd /etc/apache2/sites-available/  
 a2ensite your_domain.conf  
