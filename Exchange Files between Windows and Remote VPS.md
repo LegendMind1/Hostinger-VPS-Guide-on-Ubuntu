@@ -7,7 +7,7 @@
 1. Open Command Prompt  
 2. Copy Zip File from Local Windows Machine to Linux Remote Server  
 3. Syntax:- scp -P Port_number Source_File_Path Destination_Path  
-4. Example:- scp -P 22 osmsProject.zip root@xxx.xxx.xxx.xxx:/var/www  
+4. Example:- scp -P 22 myproj.zip root@xxx.xxx.xxx.xxx:/var/www  
 5. Copied Successfully  
 
 **To Access Remote Server via SSH**  
