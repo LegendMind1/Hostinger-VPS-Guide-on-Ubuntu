@@ -7,8 +7,9 @@ Example:- ssh -p 22 root@xxx.xxx.xxx.xxx
 **Updates the package lists for Upgrades then Upgrades**  
 1. apt update  
 2. apt upgrade  
-3. Install Apache  
-4. apt install apache2  
+
+**Install Apache**  
+apt install apache2  
 
 **(Optional) If Get Error While Installation "cannot stat '/usr/share/apache2/default-site/index.html': No such file or directory dpkg: error processing package apache2 (--configure)" then Try to Install Again**  
 apt purge apache2-data  
