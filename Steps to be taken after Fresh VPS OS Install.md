@@ -17,15 +17,15 @@ Example:- timedatectl set-timezone Asia/Karachi
 
 5.  **Give sudo privileges to new user using 'usermod -aG sudo [username]' command**
 
-6.  **Prvent Root Login in /etc/ssh/sshd_config file**  
+6.  **Prevent Root Login in /etc/ssh/sshd_config file**  
 
 7.  **Rstart ssh srvice**  
 
 8.  **Install firewall using 'sudo apt install ufw' command**  
 
-9.  **Enable firewall using 'sudo ufw enable' command** 
+9.  **Check status and allow essential services and port numbers through firewall**
 
-10. **Check status and allow essential services and port numbers through firewall**
+10. **Enable firewall using 'sudo ufw enable' command** 
 
 11. **Install Apache**  
 - sudo apt update   
@@ -54,7 +54,11 @@ apt install php libapache2-mod-php php-mysql
 - php-mysql ---> It is a PHP module that allows PHP to connect to MySQL  
 
 15. **To Restart Apache**  
-service apache2 restart  
+service apache2 restart 
+
+16. **Point Domain to VPS**  
+
+17. **Install SSL Crtificate**  
 
 
 
