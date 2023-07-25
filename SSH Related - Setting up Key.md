@@ -29,3 +29,6 @@ Create in remote/ VPS server using *mkdir .ssh* command
 2. **Copy Public Key**  
 Syntax:- scp -P PORT SSH_PUBLIC_KEY_PATH USERNAME@HOSTIP:/home/USERNAME/.ssh/authorized_keys  
 Example:- scp -P 22 C:\Users\USERNAME/.ssh\id_rsa.pub USERNAME@xxx.xxx.xxx.xxx:/home/USERNAME/.ssh/authorized_keys  
+
+## **Fixing the Warning of Remote Host Identification Changed whn r-installing VPS OS**  
+ssh-keygen -R [Host IP]
