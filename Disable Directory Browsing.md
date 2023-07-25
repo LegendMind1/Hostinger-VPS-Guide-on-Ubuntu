@@ -17,7 +17,7 @@ nano /etc/apache2/apache2.conf
         Options Indexes FollowSymLinks  
         AllowOverride None  
         Require all granted  
-</Directory>  
+<[/]Directory>  
 
 **Change Above content to below Content**  
 <Directory /var/www/>  
