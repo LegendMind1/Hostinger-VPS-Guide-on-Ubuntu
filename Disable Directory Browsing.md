@@ -24,7 +24,7 @@ nano /etc/apache2/apache2.conf
         Options FollowSymLinks  
         AllowOverride None  
         Require all granted  
-</Directory>  
+<[/]Directory>  
 
 **Restart Apache**  
 service apache2 restart  
@@ -42,7 +42,7 @@ nano 000-default.conf
         Options FollowSymLinks  
         AllowOverride None  
         Require all granted  
-</Directory>  
+<[/]Directory>  
 
 **Restart Apache**  
 service apache2 restart  
