@@ -20,11 +20,13 @@ nano /etc/apache2/apache2.conf
 <[/]Directory>  
 
 **Change Above content to below Content**  
+```console
 <Directory /var/www/>  
         Options FollowSymLinks  
         AllowOverride None  
         Require all granted  
-<[/]Directory>  
+</Directory>  
+```
 
 **Restart Apache**  
 service apache2 restart  
