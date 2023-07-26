@@ -3,15 +3,20 @@ Congratulations! You have successfully enabled https://www.legendsol.cloud
 You should test your configuration at:
 https://www.ssllabs.com/ssltest/analyze.html?d=www.legendsol.cloud
 
-Deploying Certificate to VirtualHost /etc/apache2/sites-available/000-default-le-ssl.conf
 
+Deploying Certificate to VirtualHost /etc/apache2/sites-available/legendsol.cloud-le-ssl.conf
+
+Enabling available site: /etc/apache2/sites-available/legendsol.cloud-le-ssl.conf
+
+Redirecting vhost in /etc/apache2/sites-enabled/legendsol.cloud.conf to ssl vhost in /etc/apache2/sites-available/legendsol.cloud-le-ssl.conf
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 IMPORTANT NOTES:
  - Congratulations! Your certificate and chain have been saved at:
    /etc/letsencrypt/live/www.legendsol.cloud/fullchain.pem
    Your key file has been saved at:
    /etc/letsencrypt/live/www.legendsol.cloud/privkey.pem
-   Your cert will expire on 2023-10-22. To obtain a new or tweaked
+   Your cert will expire on 2023-10-23. To obtain a new or tweaked
    version of this certificate in the future, simply run certbot again
    with the "certonly" option. To non-interactively renew *all* of
    your certificates, run "certbot renew"

@@ -70,3 +70,17 @@ a2dissite 000-default.conf
 
 **Restart Apache2**  
 service apache2 restart  
+
+### **Important Notes**  
+
+1. **Note: In order to point http to https create / update .htaccess in the root of the website i.e. /var/www/[website folder]/.htaccess then insert the following code:**
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]  
+
+
+2. **Note: In order to Force HTTPS on a Specific Folder**
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(folder1|folder2|folder3) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
