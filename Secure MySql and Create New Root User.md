@@ -51,8 +51,8 @@ Syntax:- GRANT ALL PRIVILEGES ON *.* TO 'kumar'@'localhost' WITH GRANT OPTION;
 exit
 
 **Restart Web Server**  
-- If Apache
+- If Apache  
 service apache2 restart
 
-- If Nginx
+- If Nginx  
 service nginx restart
