@@ -17,7 +17,8 @@ It is a Plugins that perform authentication using SHA-256 password hashing. This
 apt update  
 apt upgrade  
 apt install mysql-server  
-Login to MySQL  
+
+**Login to MySQL**  
 mysql  
 
 **Set Password for Root**  
