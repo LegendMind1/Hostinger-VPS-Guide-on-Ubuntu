@@ -12,12 +12,13 @@ Directory browsing can put your site at risk by showing important information to
 nano /etc/apache2/apache2.conf  
 
 **Find below content**  
-
+```console
 <Directory /var/www/>  
         Options Indexes FollowSymLinks  
         AllowOverride None  
         Require all granted  
-<[/]Directory>  
+</Directory>  
+```
 
 **Change Above content to below Content**  
 ```console
