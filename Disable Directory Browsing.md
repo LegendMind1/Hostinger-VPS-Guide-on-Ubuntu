@@ -38,11 +38,13 @@ cd /etc/apache2/sites-available
 nano 000-default.conf  
 
 **Add below Content**  
+```console
 <Directory /var/www/html/>  
         Options FollowSymLinks  
         AllowOverride None  
         Require all granted  
-<[/]Directory>  
+</Directory>  
+```
 
 **Restart Apache**  
 service apache2 restart  
