@@ -3,7 +3,7 @@
 https://www.hostinger.com/tutorials/ssh/basic-ssh-commands
 
 1. clear  ----> clear screen
-2. whoami    ---> see who is logged in user
+2. whoami    ---> see who is logged-in user
 3. cd\ ---> To root directory
 4. cd ~ ---> Change propmt to load system folders path
 5. cd / ---> Change Propmt to load server folders path
