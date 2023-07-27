@@ -24,7 +24,7 @@ mysql
 **Set Password for Root**  
 ```console
 Syntax:- ALTER USER 'user_name'@'localhost' IDENTIFIED WITH caching_sha2_password by 'user_password';
-Example:- ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password by 'Hello123456#';
+Example:- ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password by '#o012345abc#';
 ```
 
 **Exit from MySQL**  
@@ -39,13 +39,13 @@ mysql -u root -p
 **Create New User**  
 ```console
 Syntax:- CREATE USER 'user_name'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'user_password';
-Example:- CREATE USER 'kumar'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'Hello123456#';
+Example:- CREATE USER 'noman'@'localhost' IDENTIFIED WITH caching_sha2_password BY '#o01234abc#';
 ```
 
 **Grant New User All Privileges**  
 ```console
 Syntax:- GRANT ALL PRIVILEGES ON *.* TO 'user_name'@'localhost' WITH GRANT OPTION;
-Syntax:- GRANT ALL PRIVILEGES ON *.* TO 'kumar'@'localhost' WITH GRANT OPTION;
+Syntax:- GRANT ALL PRIVILEGES ON *.* TO 'noman'@'localhost' WITH GRANT OPTION;
 ```
 
 **Exit from MySQL**  
