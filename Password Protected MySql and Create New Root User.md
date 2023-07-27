@@ -22,6 +22,7 @@ apt install mysql-server
 mysql  
 
 **Set Password for Root**  
+Note: The same ALTER USER query can be used to change the MySql root / user password.
 ```console
 Syntax:- ALTER USER 'user_name'@'localhost' IDENTIFIED WITH caching_sha2_password by 'user_password';
 Example:- ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password by '#o012345abc#';
