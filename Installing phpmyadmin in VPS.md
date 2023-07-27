@@ -1,5 +1,5 @@
-# **How to Install phpmyadmin with Apache Web Server**  
-**Install phpMyAdmin and Other Plugins** 
+# **How to Install phpmyadmin with Apache Web Server**   
+**Install phpMyAdmin and Other Plugins**   
 Note: You should be logged in as User in VPS and not in MySql
 
 apt update  
