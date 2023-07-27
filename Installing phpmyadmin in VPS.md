@@ -2,9 +2,11 @@
 **Install phpMyAdmin and Other Plugins**   
 Note: You should be logged in as User in VPS and not in MySql
 
+```console
 apt update  
 apt upgrade  
 apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl  
+```
 - php-mbstring: A module for managing non-ASCII strings with different encodings  
 - php-zip: An extension that facilitates uploading .zip files to phpMyAdmin  
 - php-gd: Enables support for GD graphics library  
