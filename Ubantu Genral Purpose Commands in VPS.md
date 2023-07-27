@@ -13,6 +13,7 @@ https://www.hostinger.com/tutorials/ssh/basic-ssh-commands
 9. lsb_release -a && ip r  ---> See which Ubantu version installed 
 10. apt install unzip ---> Install Unzip
 11. unzip [filename] ---> Unzip a zip file
+12. mv [source] [destination] --- > Move file  
    
 **Add / Manage Users**  
 1. adduser [username]   ----> Add new user
