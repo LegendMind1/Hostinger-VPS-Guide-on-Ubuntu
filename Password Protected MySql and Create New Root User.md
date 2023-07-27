@@ -58,3 +58,7 @@ service apache2 restart
 
 - If Nginx  
 service nginx restart
+
+## **Sometimes You may want to open following config file of PhpMyAdmin**  
+config-db.php i.e.  
+[VPS Server Prompt]:/etc/phpmyadmin$ sudo nano config-db.php  
