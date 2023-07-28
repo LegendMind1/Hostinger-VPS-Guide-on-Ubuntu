@@ -14,6 +14,8 @@ https://www.hostinger.com/tutorials/ssh/basic-ssh-commands
 10. apt install unzip ---> Install Unzip
 11. unzip [filename] ---> Unzip a zip file
 12. mv [source] [destination] --- > Move file  
+13. cp [old_file] [new_file] ---> Copy file
+14. mkdir [directory name] ---> Make Directory
    
 **Add / Manage Users**  
 1. adduser [username]   ----> Add new user
