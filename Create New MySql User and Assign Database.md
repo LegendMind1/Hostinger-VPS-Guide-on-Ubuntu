@@ -2,7 +2,7 @@
 
 **Login to MySQL with Root User**  
 mysql -u root -p
-
+pppppppppppppppppppppppppp
 **Create New User**  
 ```console
 Syntax:- CREATE USER 'user_name'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'user_password';
