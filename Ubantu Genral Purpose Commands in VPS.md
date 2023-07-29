@@ -16,6 +16,7 @@ https://www.hostinger.com/tutorials/ssh/basic-ssh-commands
 12. mv [source] [destination] --- > Move file  
 13. cp [old_file] [new_file] ---> Copy file
 14. mkdir [directory name] ---> Make Directory
+15. chmod -R +x [node_modules] ---> The chmod +x command makes a file or a directory executable.  
    
 **Add / Manage Users**  
 1. adduser [username]   ----> Add new user
