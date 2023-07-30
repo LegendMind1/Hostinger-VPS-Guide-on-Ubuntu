@@ -7,4 +7,6 @@
 - pm2 kill  ---> Kill the process if errored out
   **or**  
 - pm2 restart Server ---> To restart it
-- pm2 flush ---> Used after killing process so all logfiles will be reset
+- pm2 flush ---> Used after killing process so all logfiles will be reset  
+
+**Note:** chmod -R +x [node_modules] ---> The chmod +x command makes a file or a directory executable. This command may come handy in the event of error saying 'sh: 1: next: Permission denied'  
