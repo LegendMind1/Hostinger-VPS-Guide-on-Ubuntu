@@ -1,4 +1,4 @@
-# **Deploy NextJS App on VPS CybrPanel with Reverse Proxy**
+# **Deploy NextJS App on VPS CybrPanel with Reverse Proxy fdgfdgdfgdfg**
 1. Login into your cyber panel with the following URL like this. (your-ip:8090)  
 2. Click on the vHost Conf.  
 3. The first line should indicate the document root folder path like this
