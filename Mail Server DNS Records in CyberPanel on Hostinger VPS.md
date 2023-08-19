@@ -10,9 +10,13 @@
 | AAAA  | smtp | IPv6 | Auto  |
 | A  | mail | IPv4 | Auto   |
 | A  | smtp | IPv4 | Auto  |
-| MX  | domain.com | mail.domain.com | 0  |
-| TXT  | default_domainkey | dkim (From Cyber Panel)  |   |
-| TXT  | domain.com | v=spf1 ip6:Domain IPv6 ip4:Domain IPv4 ~all  |   |
-| TXT  | domain.com | v=DMARC1; p=none; rua=mailto:emailuser@yourdomain.com  |   |  
+| MX  | domain.com OR mail (if on GoDaddy) | mail.domain.com | 0  |
+| TXT  | default_domainkey OR OR mail (if on GoDaddy) | dkim (From Cyber Panel)  |   |
+| TXT  | domain.com OR mail (if on GoDaddy) | v=spf1 ip6:Domain IPv6 ip4:Domain IPv4 ~all  |   |
+| TXT  | domain.com OR mail (if on GoDaddy) | v=DMARC1; p=none; rua=mailto:emailuser@yourdomain.com  |   |  
 
-### **Note: replace domain.com with your domain and ip, email where applicable. If your server do not have ipv6 address you can skip those records.** 
+### **Note: Replace domain.com with your domain and ip, email where applicable. If your server does not have ipv6 address you can skip those records.** 
+
+### **Note 2: If you are using IPv6 for Email (Gmail and lot others have it as mandatory setting) You must have added IPv6 @ records for AA and AAAA too.**  
+
+### **Note 3: Gmail is strictly enforcing PTR records too, otherwise you may recieve email in your mail server but won't be able to send to Gmail. Adding PTR records in Hostinger is piece of cake, just add yourdomain.com in IP Address Tab in Hostinger VPS HPanel through Add PTR Records button for both IPv4 and IPv6**  
