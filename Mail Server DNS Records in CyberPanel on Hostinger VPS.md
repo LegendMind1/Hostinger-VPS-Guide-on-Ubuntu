@@ -7,9 +7,9 @@
 | Type  | Name | Content | TTL  |
 | ----- | ---- | ------- | ---- |
 | AAAA  | mail | IPv6 | Auto   |
-| AAAA  | smtp | IPv6 | Auto  |
+| AAAA  | smtp (no need for GoDaddy) | IPv6 | Auto  |
 | A  | mail | IPv4 | Auto   |
-| A  | smtp | IPv4 | Auto  |
+| A  | smtp (no need for GoDaddy) | IPv4 | Auto  |
 | MX  | domain.com OR mail (if on GoDaddy) | mail.domain.com | 0  |
 | TXT  | default_domainkey OR OR mail (if on GoDaddy) | dkim (From Cyber Panel)  |   |
 | TXT  | domain.com OR mail (if on GoDaddy) | v=spf1 ip6:Domain IPv6 ip4:Domain IPv4 ~all  |   |
