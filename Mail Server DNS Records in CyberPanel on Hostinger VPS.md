@@ -23,8 +23,7 @@
 
 
 ## **Caution**  
-When creating DKIM settings this error might occuer in Cyber Panel
-here e.g. the original error code:
+When creating DKIM settings the permission error on following file/ folders might occuer in Cyber Panel:
 ```console
 /usr/local/CyberCP/lib/python3.10/site-packages/tldextract/.suffix_cache/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
 ```
