@@ -37,3 +37,6 @@ publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
 ```console
 chown -R cyberpanel:cyberpanel /usr/local/CyberCP/lib/python3.8/site-packages/tldextract/.suffix_cache/
 ```
+
+# Success.
+### For more useful information you may visit http://legendsol.com
