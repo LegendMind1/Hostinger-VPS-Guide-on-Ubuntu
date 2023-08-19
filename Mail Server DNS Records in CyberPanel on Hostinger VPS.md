@@ -2,7 +2,7 @@
 
 ### **- Step 1 – Setup VPS and Create Site**  
 ### **- Step 2 – Setup VPS and Create Site**  
-### **- Step 3 - Add A, AAAA and TXT Records in DNS Records at Web Domain like GoDaddy from where you purchased domain  
+### **- Step 3 - Add A, AAAA and TXT Records in DNS Records at Web Domain like GoDaddy from where you purchased domain**   
 
 | Type  | Name | Content | TTL  |
 | ----- | ---- | ------- | ---- |
