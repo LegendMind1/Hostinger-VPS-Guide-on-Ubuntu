@@ -9,6 +9,7 @@ git add */filename           -> Stages *(All files) or by given file name
 git commit -m "commit message" -> Commits staged files
 git push                     -> Pushes to your current branch
 git pull                     -> Pull everything
+git stash                    -> Pull content without updating changes first
 
 git switch foo               -> If foo exists, try to switch to foo
 
