@@ -37,8 +37,8 @@ type proxy
 handler <Cyber-panel-generated-project-name>
 addDefaultCharset off
 }
-
-### **Note:- Finally our vHost file would be like this code.**
+```
+8. ### **Note:- Finally our vHost file would be like this code.**
 ```console
 docRoot                   $VH_ROOT/public_html
 vhDomain                  $VH_NAME
